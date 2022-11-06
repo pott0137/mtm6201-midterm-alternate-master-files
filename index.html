@@ -16,7 +16,7 @@
       <div class="logo-center">
         <img src="images/logo.svg" alt="Site Logo" class="logo" />
       </div>
-      <nav>
+      <nav id="top">
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -55,23 +55,22 @@
             <p class="home-icon-text">Fitness Center</p>
           </div>
         </div>
-        <div id="started">
-          <input type="submit" value="Get Started" class="started" />
+        <div class="started">
+          <button>Get Started</button>
         </div>
       </div>
       <div class="girl">
         <img src="images/discover.svg" alt="girl reading" class="girl-img" />
       </div>
-      <!-- Div is needed around images so that it can be cetnered with "text align", text-align only targets text -->
-      <section class="kids-container">
-        <div class="kids">
+      <section class="school-container">
+        <div class="school">
           <img
             src="images/school.jpg"
-            alt="kids throwing hats"
-            class="kids-img"
+            alt="graduates throwing hats"
+            class="school-img"
           />
         </div>
-        <h2>Discover</h2>
+        <h2>Discover.</h2>
         <h3>Algonquin College</h3>
         <p>
           of Applied Arts and Technology is a publicly funded English-language
@@ -85,8 +84,8 @@
       </div>
       <div class="simon">
         <img src="images/simon.jpg" alt="simon" class="simon-img" />
-        <h2 class="simon">Dijanelle Simon SA President</h2>
-        <p class="simon-p">
+        <h2>Dijanelle Simon <br> SA President</h2>
+        <p>
           "Only with increased capacity can we expand and create a more
           inclusive program that attracts a greater number of students to
           participate in physical and social activity. The Students' Association
@@ -96,32 +95,33 @@
       </div>
       <div class="beers">
         <img src="images/entertainment.jpg" alt="beers" class="beers-img" />
-      </div>
-      <!-- Div is needed around the image so that text-align center will center the image -->
-      <h2>Discover</h2>
-      <h3>The entertainment</h3>
-      <p>
+      
+        <h2>Discover.</h2>
+        <h3>The entertainment</h3>
+        <p>
         at Algonquin College is endless. We currently have the Algonquin Commons
         Theatre where we host a variety of events. Now with the coming of the
         ARC facility, not only will it be providing more space for the students
         to study, but it will also be bringing in more room for late-night
         entertainment.
-      </p>
+        </p>
+      </div>
       <div class="learn">
         <input type="submit" value="Learn More" class="learn-more" />
       </div>
     </div>
     <footer>
-      <p class="follow">Follow Us</p>
-      <img src="icons/facebook.svg" alt="facebook" />
-      <img src="icons/instagram.svg" alt="instagram" />
-      <img src="icons/twitter.svg" alt="twitter" />
-      <img src="icons/youtube.svg" alt="youtube" />
-      <div class="myBtn">
-        <img src="icons/arrow.svg" alt="arrow" onclick="topFunction()" />
-        <button onclick="topFunction()" id="myBtn" title="Back to top">
-          Back to top
-        </button>
+      <p>Follow Us</p>
+      <div class="icons">
+          <div class="footer-social">
+          <img src="icons/facebook.svg" alt="facebook" />
+          <img src="icons/instagram.svg" alt="instagram" />
+          <img src="icons/twitter.svg" alt="twitter" />
+          <img src="icons/youtube.svg" alt="youtube" />
+        </div>
+      </div>
+      <div class="myBtn"><a href="#top" class="top">
+        <img src="icons/arrow.svg" alt="arrow"/><p>Back to top</p></a>
       </div>
     </footer>
   </body>
